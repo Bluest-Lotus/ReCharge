@@ -1,10 +1,18 @@
-# ReCharge
-A student-led initiative focused on the safe extraction and repurposing of lithium cells from disposable vapes. To reduce e‑waste by reclaiming disposed batteries and components, transforming them into safe, modular power solutions while advancing awareness and responsible lithium recycling. Reclaim lithium. Reduce waste. Recharge the future.
+# Project ReCharge — Multi-page Documentation Website
 
-### Index
+Static GitHub Pages website with six separate HTML pages.
 
-<!-- - [Concepts](SiteStuff/concepts/index.md) -->
-- [Automation](SiteStuff/automation/index.md)
-- [Guides](SiteStuff/guides/index.md)
+## Pages
+- `index.html` — Overview
+- `research.html` — Research & Impact
+- `product.html` — Phoenix Pack
+- `automation.html` — Automation
+- `business.html` — Business & Partners
+- `management.html` — Project Management
 
-[Work-Analysis](SiteStuff/analysis.md)
+The shared design is in `styles.css`, functionality and cross-page search in `script.js`, and searchable documentation data in `content.json`. To edit published text, update the relevant HTML page **and** the corresponding entry in `content.json` for search consistency.
+
+## Publish
+Upload all files in this folder to the repository root. In GitHub repository Settings → Pages, choose Deploy from a branch → main → /(root). No build step required.
+
+Run a local preview with `python -m http.server 8000` and open `http://localhost:8000`.

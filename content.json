@@ -1,0 +1,594 @@
+[
+  {
+    "title": "Document Control",
+    "id": "document-control",
+    "groups": []
+  },
+  {
+    "title": "1. Executive Summary",
+    "id": "1-executive-summary",
+    "groups": [
+      {
+        "title": "Overview",
+        "paragraphs": [
+          "Project ReCharge is a student-led circular-economy initiative addressing lithium-ion cells discarded in disposable vape devices. It combines responsible collection and battery recovery with research into safe reuse, recycling pathways and a prototype powerbank called the Phoenix Pack."
+        ]
+      },
+      {
+        "title": "Mission",
+        "paragraphs": [
+          "Reclaim lithium. Reduce waste. Recharge the future."
+        ]
+      },
+      {
+        "title": "Current position",
+        "paragraphs": [
+          "The initiative has demonstrated collection activity and a working powerbank prototype. A capstone automation effort is exploring repeatable assembly of a revised powerbank design. Product commercialization, deployment and automated production remain development goals rather than established operating capabilities."
+        ]
+      },
+      {
+        "title": "Key objectives",
+        "paragraphs": [
+          "Divert disposable vape devices from improper disposal; establish controlled handling and recycling routes; evaluate reclaimed cells for potential reuse; develop a manufacturable powerbank; test automated assembly; and build an economically and environmentally sustainable service model."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "2. Problem Definition and Evidence",
+    "id": "2-problem-definition-and-evidence",
+    "groups": [
+      {
+        "title": "Waste stream",
+        "paragraphs": [
+          "Disposable vape products contain lithium-ion cells alongside plastics, electronics and other components. Improper disposal can waste recoverable materials and create fire and environmental risks. Exact national disposal volumes and global recycling percentages cited in earlier project materials require source verification before external publication."
+        ]
+      },
+      {
+        "title": "Local validation",
+        "paragraphs": [
+          "An earlier student survey reported approximately 60% of respondents had used a vape and approximately 6% disposed of devices properly. Survey sample size, wording, collection period and denominator should be preserved with the raw results before using these figures in formal claims."
+        ]
+      },
+      {
+        "title": "Collection evidence",
+        "paragraphs": [
+          "A campus collection effort recovered more than 76 devices over three days. Retain dated collection logs, photographs, counts by category and final downstream disposition records to support this outcome."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "3. Scope and Success Criteria",
+    "id": "3-scope-and-success-criteria",
+    "groups": [
+      {
+        "title": "In scope",
+        "paragraphs": [
+          "Awareness campaigns; controlled collection; sorting and inspection; battery characterization by trained personnel; feasibility evaluation; powerbank mechanical/electrical prototyping; robotic assembly concept; pilot business model; impact measurement."
+        ]
+      },
+      {
+        "title": "Out of scope until validated",
+        "paragraphs": [
+          "Unsupervised opening of damaged vape devices; consumer distribution of unqualified reused cells; claims of certification; automated cell recovery from vape housings without an independently reviewed hazard analysis; and broad commercial rollout."
+        ]
+      },
+      {
+        "title": "Success criteria",
+        "paragraphs": [
+          "Demonstrated safe collection and documented recycler handoff; reproducible engineering tests; an approved product design; reliable automated placement/assembly trials; traceable pilot metrics; and verified unit economics."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "4. End-to-End Operating Model",
+    "id": "4-end-to-end-operating-model",
+    "groups": [
+      {
+        "title": "Collection",
+        "paragraphs": [
+          "Receive intact devices in appropriately selected fire-resistant collection containers under a documented collection protocol. Label collection points and prevent contamination with unrelated waste."
+        ]
+      },
+      {
+        "title": "Intake and segregation",
+        "paragraphs": [
+          "Record quantities, device condition and collection location. Quarantine visibly compromised items and use an approved recycler or qualified specialist for disposition."
+        ]
+      },
+      {
+        "title": "Recovery decision",
+        "paragraphs": [
+          "Only qualified personnel following an approved battery-safety procedure should determine whether cells can be safely recovered and assessed. Reuse eligibility must not be assumed from visual condition alone."
+        ]
+      },
+      {
+        "title": "Disposition",
+        "paragraphs": [
+          "Route rejected cells and other device fractions to appropriate licensed or otherwise verified recycling partners. Maintain custody and weight/count records."
+        ]
+      },
+      {
+        "title": "Manufacturing route",
+        "paragraphs": [
+          "Only individually qualified, traceable cells would proceed to a validated powerbank build process. The manufacturing process is separate from hazardous-device dismantling."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "5. Phoenix Pack Product Architecture",
+    "id": "5-phoenix-pack-product-architecture",
+    "groups": [
+      {
+        "title": "Product description",
+        "paragraphs": [
+          "Phoenix Pack is a rechargeable powerbank concept using recovered lithium-ion cells where safety and qualification permit. Its purpose is to turn a difficult waste stream into a visible, useful demonstration of circular material recovery."
+        ]
+      },
+      {
+        "title": "Defined assembly parts",
+        "paragraphs": [
+          "The revised prototype is divided into four main parts: bottom casing, top casing, circuit board and batteries. Cells are arranged in alignment to simplify robotic placement and electrical interconnection."
+        ]
+      },
+      {
+        "title": "Battery connections",
+        "paragraphs": [
+          "The design direction uses friction- or pressure-fit electrical contacts rather than soldering directly to the cells, reducing assembly heat exposure. Contact resistance, retention force, vibration tolerance, oxidation, short-circuit protection and long-term reliability require validation."
+        ]
+      },
+      {
+        "title": "Unconfirmed specifications",
+        "paragraphs": [
+          "Cell chemistry, dimensions, capacity, quantity, series/parallel arrangement, protection IC, charge/discharge limits, connector types, USB output ratings, thermal design and enclosure material are all To verify. No performance rating should be published until measured."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "6. Electrical Design and Safety",
+    "id": "6-electrical-design-and-safety",
+    "groups": [
+      {
+        "title": "Electrical functions",
+        "paragraphs": [
+          "The board design must address cell protection, overcharge/overdischarge, overcurrent, short circuit, temperature monitoring as appropriate, charging control and regulated output. Requirements depend on actual cell configuration and chemistry."
+        ]
+      },
+      {
+        "title": "Reuse qualification",
+        "paragraphs": [
+          "A documented battery acceptance program should consider identity/chemistry, physical damage, voltage, capacity, internal resistance, self-discharge, history and compatibility. Thresholds must be defined by qualified engineering review and relevant standards—not inferred from this document."
+        ]
+      },
+      {
+        "title": "Design safeguards",
+        "paragraphs": [
+          "Use insulating barriers, polarity-keyed placement, mechanically secure contacts, protected terminals, appropriate fusing/protection, strain relief, and enclosure features preventing access to energized conductors."
+        ]
+      },
+      {
+        "title": "Regulatory gate",
+        "paragraphs": [
+          "Before any public lending, rental or sale, obtain specialist review of applicable Canadian electrical/product safety, lithium battery transport, recycling and consumer-product requirements, and appropriate independent testing/certification where required."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "7. Mechanical Design",
+    "id": "7-mechanical-design",
+    "groups": [
+      {
+        "title": "Enclosure",
+        "paragraphs": [
+          "The bottom casing locates and supports batteries and circuit board. The top casing closes and protects the assembly. CAD should include datums, fastening or snap-fit geometry, clearances, ventilation/thermal provisions and serviceability."
+        ]
+      },
+      {
+        "title": "Assembly-friendly design",
+        "paragraphs": [
+          "Use consistent cell orientation, lead-ins, chamfers, locating bosses and accessible grasping surfaces. Avoid geometries requiring a robot to flex cells or force electrical contacts beyond validated insertion loads."
+        ]
+      },
+      {
+        "title": "Design outputs",
+        "paragraphs": [
+          "Maintain controlled CAD files, exploded assembly, dimensioned drawings, material selection, tolerance stack-up, assembly instructions and engineering change records."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "8. Automation Engineering Approach",
+    "id": "8-automation-engineering-approach",
+    "groups": [
+      {
+        "title": "Objective",
+        "paragraphs": [
+          "Explore repeatable assembly of the four-part powerbank with robotic material handling, controlled placement and verification. The focus is design for automation, not the identity of individual team members."
+        ]
+      },
+      {
+        "title": "Proposed cell workflow",
+        "paragraphs": [
+          "Present bottom casing in a repeatable fixture; locate casing; place prequalified cells in the aligned orientation; install the circuit board and engage validated pressure-fit contacts; fit top casing; inspect and transfer to an electrical test station."
+        ]
+      },
+      {
+        "title": "Equipment categories",
+        "paragraphs": [
+          "Industrial robot or collaborative robot, end-effector/gripper, part feeders or trays, fixture/nest, PLC, discrete sensors, optional machine vision, guarding/interlocks, electrical test equipment and HMI. Exact models and installed devices remain To verify."
+        ]
+      },
+      {
+        "title": "Controls",
+        "paragraphs": [
+          "PLC logic should coordinate station readiness, safe start, part-present signals, robot handshakes, fault states, recovery and test disposition. Robot programs should use validated frames, speed limits and collision checks."
+        ]
+      },
+      {
+        "title": "Major assembly challenges",
+        "paragraphs": [
+          "Variation in reclaimed-cell size/condition; reliable orientation and grasping; consistent contact insertion force; electrical polarity verification; dimensional tolerance variation; enclosure closure; prevention of shorts; and dependable rejection/traceability."
+        ]
+      },
+      {
+        "title": "Safety boundary",
+        "paragraphs": [
+          "Robot cell assembly should not be treated as permission to automate disassembly of hazardous disposable vape devices. Develop separate risk assessments and safeguards for each operation."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "9. Verification and Quality Assurance",
+    "id": "9-verification-and-quality-assurance",
+    "groups": [
+      {
+        "title": "Inspection stages",
+        "paragraphs": [
+          "Incoming cell qualification; casing/PCB incoming inspection; part-presence and polarity checks; contact-engagement checks; enclosure inspection; electrical safety and functional tests; final traceability record."
+        ]
+      },
+      {
+        "title": "Test plan",
+        "paragraphs": [
+          "Define test ID, purpose, fixture, instruments/calibration, sample size, acceptance limits, results, reviewer and corrective action. Candidate tests include contact resistance, output voltage, charging function, thermal behavior, drop/vibration, short-circuit protection and cycle endurance."
+        ]
+      },
+      {
+        "title": "Release control",
+        "paragraphs": [
+          "No unit should enter student/public use without documented acceptance criteria, approved test results, safe-use instructions and product liability/regulatory review."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "10. Environmental and Social Impact",
+    "id": "10-environmental-and-social-impact",
+    "groups": [
+      {
+        "title": "Impact pathway",
+        "paragraphs": [
+          "The initiative links responsible collection, material recovery, education and a tangible powerbank demonstration. Recycling remains the appropriate pathway for cells that cannot be responsibly reused."
+        ]
+      },
+      {
+        "title": "Measures",
+        "paragraphs": [
+          "Track devices collected, cell mass and count, proportion rejected, recycler handoff, cells qualified for reuse, powerbanks built/tested, collection engagement and educational reach. Avoid equating collection volume with verified emissions savings."
+        ]
+      },
+      {
+        "title": "SDGs",
+        "paragraphs": [
+          "Prior project materials identify contributions to multiple UN Sustainable Development Goals. Map each claimed SDG to a measurable project activity and supporting evidence before external reporting."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "11. Business and Deployment Model",
+    "id": "11-business-and-deployment-model",
+    "groups": [
+      {
+        "title": "Customers and beneficiaries",
+        "paragraphs": [
+          "Students, educational institutions, campuses and other high-traffic facilities are potential beneficiaries. Proposed institutional payers and operating partners must be validated through interviews and pilots."
+        ]
+      },
+      {
+        "title": "Concept",
+        "paragraphs": [
+          "A powerbank lending/rental kiosk could support short-term charging needs. Potential revenue includes rental fees and advertising; kiosk displays may also support public-service or emergency messaging subject to governance and technical validation."
+        ]
+      },
+      {
+        "title": "Economics",
+        "paragraphs": [
+          "Build a cost model covering collection, qualified labor, cell testing/rejection, electronics, enclosure, automation, energy, quality assurance, certification, kiosk capital, maintenance, insurance, replacement and recycler fees. No break-even estimate is currently verified."
+        ]
+      },
+      {
+        "title": "Pilot",
+        "paragraphs": [
+          "Start with a supervised, limited-access pilot only after product safety review, operational permissions, user instructions, maintenance processes and incident response are in place."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "12. Partnerships, Outreach and Achievements",
+    "id": "12-partnerships-outreach-and-achievements",
+    "groups": [
+      {
+        "title": "Project history",
+        "paragraphs": [
+          "ReCharge evolved from lithium recovery and awareness into the Phoenix Pack prototype and an automated manufacturing capstone. A collection drive and project showcases provided early traction."
+        ]
+      },
+      {
+        "title": "Reported recognition",
+        "paragraphs": [
+          "Prior project records mention an Innovation & Impact Champion recognition, second place in the Canadian Tire Environmental Sustainability Challenge, Ford Innovation Showcase involvement, Red Bull Basement 2026 Canada idea recognition, and a St. Clair College innovation prize. Verify official event names, dates and award wording before publication."
+        ]
+      },
+      {
+        "title": "Partner needs",
+        "paragraphs": [
+          "Potential partners include campus administration, student council, verified electronics/battery recyclers, engineering reviewers, insurers, kiosk host sites and manufacturing sponsors."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "13. Project Governance and Handover",
+    "id": "13-project-governance-and-handover",
+    "groups": [
+      {
+        "title": "Operating structure",
+        "paragraphs": [
+          "Maintain accountable ownership of project management, mechanical engineering, electrical engineering, automation, procurement/budget, safety/quality, outreach and business development. Roles may be shared but decision authority should be explicit."
+        ]
+      },
+      {
+        "title": "Document management",
+        "paragraphs": [
+          "Store source files in a shared controlled repository with version naming, revision log, reviewers and change approval. Keep public presentation material distinct from confidential test and supplier records."
+        ]
+      },
+      {
+        "title": "Continuity",
+        "paragraphs": [
+          "Prepare onboarding notes, system diagrams, bill of materials, CAD and code repositories, vendor contacts, open risks, test evidence and next-step priorities so future students can continue development."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "14. Schedule and Milestone Gates",
+    "id": "14-schedule-and-milestone-gates",
+    "groups": [
+      {
+        "title": "Gate A — baseline",
+        "paragraphs": [
+          "Confirm product requirements, device/cell constraints, safety review and controlled design files."
+        ]
+      },
+      {
+        "title": "Gate B — prototype",
+        "paragraphs": [
+          "Complete mechanical/electrical integration and documented bench validation."
+        ]
+      },
+      {
+        "title": "Gate C — automation",
+        "paragraphs": [
+          "Demonstrate repeatable assembly of representative safe components with recorded cycle time, yield and fault recovery."
+        ]
+      },
+      {
+        "title": "Gate D — product qualification",
+        "paragraphs": [
+          "Complete required safety, reliability and compliance assessment."
+        ]
+      },
+      {
+        "title": "Gate E — supervised pilot",
+        "paragraphs": [
+          "Secure approvals, implement operating procedures, collect utilization and incident data."
+        ]
+      },
+      {
+        "title": "Gate F — expansion",
+        "paragraphs": [
+          "Validate economics, supply and recycler capacity, maintenance and governance before scaling."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "15. Financial and Procurement Controls",
+    "id": "15-financial-and-procurement-controls",
+    "groups": [
+      {
+        "title": "BOM fields",
+        "paragraphs": [
+          "Part ID; description; revision; supplier; approved alternative; unit price; quantity; extended price; lead time; lifecycle status; and safety/quality notes."
+        ]
+      },
+      {
+        "title": "Cost tracking",
+        "paragraphs": [
+          "Distinguish research costs, prototype costs, pilot costs and recurring production costs. Track cell rejection losses and testing labor, not merely purchased component prices."
+        ]
+      },
+      {
+        "title": "Funding",
+        "paragraphs": [
+          "Document grants, prizes, sponsorships, in-kind equipment and restrictions. Maintain receipts and a dated budget-versus-actual register."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "16. Risk Register",
+    "id": "16-risk-register",
+    "groups": [
+      {
+        "title": "Battery fire or thermal runaway — Critical",
+        "paragraphs": [
+          "Control through qualified handling, quarantine, cell screening, engineering safeguards, appropriate storage and emergency planning. Owner and residual risk: To assign."
+        ]
+      },
+      {
+        "title": "Cell variability — High",
+        "paragraphs": [
+          "Control through identification, acceptance testing, compatible-cell matching and traceability."
+        ]
+      },
+      {
+        "title": "Pressure-contact failure — High",
+        "paragraphs": [
+          "Control through force/resistance validation, environmental tests and end-of-line checks."
+        ]
+      },
+      {
+        "title": "Robot collision or pinch hazard — High",
+        "paragraphs": [
+          "Control through task-based risk assessment, guarding, interlocks, safe speeds and authorized access."
+        ]
+      },
+      {
+        "title": "Noncompliance / liability — Critical",
+        "paragraphs": [
+          "Control through early regulatory review, third-party advice, documentation and release gates."
+        ]
+      },
+      {
+        "title": "Supply / business model uncertainty — Medium",
+        "paragraphs": [
+          "Control through conservative forecasts, recycler agreements, pilot feedback and scenario analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "17. Open Decisions and Action Register",
+    "id": "17-open-decisions-and-action-register",
+    "groups": [
+      {
+        "title": "Engineering",
+        "paragraphs": [
+          "Confirm cell chemistry and geometry; establish qualified cell criteria; freeze electrical architecture; select contact system; determine enclosure material; validate BOM and CAD revisions."
+        ]
+      },
+      {
+        "title": "Automation",
+        "paragraphs": [
+          "Inventory actual robot, PLC, sensors and fixtures; produce I/O list; define cell layout and gripping; draft sequence and fault handling; measure cycle time and yield."
+        ]
+      },
+      {
+        "title": "Operations",
+        "paragraphs": [
+          "Approve collection and disposal SOPs; confirm recycler agreements; develop incident response; establish traceability and records retention."
+        ]
+      },
+      {
+        "title": "Commercial",
+        "paragraphs": [
+          "Identify payer, kiosk host, rental rules, insurance and service model; estimate lifecycle cost and pilot budget."
+        ]
+      },
+      {
+        "title": "Evidence",
+        "paragraphs": [
+          "Collect survey methodology, competition confirmations, prototype photos, engineering reports, test results and source references."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Appendix A. Suggested Record Templates",
+    "id": "appendix-a-suggested-record-templates",
+    "groups": [
+      {
+        "title": "Incoming battery record",
+        "paragraphs": [
+          "Record ID | source batch | receipt date | cell identifier | chemistry | physical condition | screening outcome | disposition | inspector."
+        ]
+      },
+      {
+        "title": "Assembly test record",
+        "paragraphs": [
+          "Build ID | CAD/PCB revisions | cell IDs | station/operator | date | electrical test results | visual result | deviations | release status."
+        ]
+      },
+      {
+        "title": "Engineering change request",
+        "paragraphs": [
+          "Change ID | problem | affected documents | risk impact | proposed revision | reviewer | approval | effective date."
+        ]
+      },
+      {
+        "title": "Incident / near-miss record",
+        "paragraphs": [
+          "Date | location | equipment | event | immediate controls | personnel notified | investigation | corrective action | closure."
+        ]
+      },
+      {
+        "title": "Evidence and reference log",
+        "paragraphs": [
+          "Claim | source document/link | author | date | verification status | approved external wording."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Appendix B. Glossary",
+    "id": "appendix-b-glossary",
+    "groups": [
+      {
+        "title": "BOM",
+        "paragraphs": [
+          "Bill of Materials — controlled list of components, quantities and purchasing details."
+        ]
+      },
+      {
+        "title": "PLC",
+        "paragraphs": [
+          "Programmable Logic Controller — industrial controller coordinating station logic and signals."
+        ]
+      },
+      {
+        "title": "HMI",
+        "paragraphs": [
+          "Human–Machine Interface — controls and status display for operators."
+        ]
+      },
+      {
+        "title": "Traceability",
+        "paragraphs": [
+          "Ability to connect each finished assembly to component lots, inspections and tests."
+        ]
+      },
+      {
+        "title": "Pressure-fit contact",
+        "paragraphs": [
+          "Mechanical electrical connection established by controlled contact force rather than direct cell soldering."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Revision History",
+    "id": "revision-history",
+    "groups": []
+  }
+]
