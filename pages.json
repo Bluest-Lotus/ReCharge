@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "index",
+    "label": "Overview",
+    "file": "docs/index.md",
+    "url": "index.html"
+  },
+  {
+    "slug": "research",
+    "label": "Research & Impact",
+    "file": "docs/research.md",
+    "url": "research.html"
+  },
+  {
+    "slug": "product",
+    "label": "Phoenix Pack",
+    "file": "docs/product.md",
+    "url": "product.html"
+  },
+  {
+    "slug": "automation",
+    "label": "Automation",
+    "file": "docs/automation.md",
+    "url": "automation.html"
+  },
+  {
+    "slug": "business",
+    "label": "Business & Partners",
+    "file": "docs/business.md",
+    "url": "business.html"
+  },
+  {
+    "slug": "management",
+    "label": "Project Management",
+    "file": "docs/management.md",
+    "url": "management.html"
+  }
+]

@@ -1,18 +1,15 @@
-# Project ReCharge — Multi-page Documentation Website
+# Project ReCharge
 
-Static GitHub Pages website with six separate HTML pages.
+**Reclaim lithium. Reduce waste. Recharge the future.**
 
-## Pages
-- `index.html` — Overview
-- `research.html` — Research & Impact
-- `product.html` — Phoenix Pack
-- `automation.html` — Automation
-- `business.html` — Business & Partners
-- `management.html` — Project Management
+Project ReCharge is a student-led sustainability and engineering initiative through Enactus St. Clair College. It explores responsible recovery of lithium-ion cells from disposable vape devices, recycling pathways, and reuse through the Phoenix Pack powerbank prototype.
 
-The shared design is in `styles.css`, functionality and cross-page search in `script.js`, and searchable documentation data in `content.json`. To edit published text, update the relevant HTML page **and** the corresponding entry in `content.json` for search consistency.
+## About this repository
 
-## Publish
-Upload all files in this folder to the repository root. In GitHub repository Settings → Pages, choose Deploy from a branch → main → /(root). No build step required.
+This repository hosts ReCharge’s public documentation website, including research, product development, automation, business planning, and project management. Its purpose is to preserve project knowledge, make progress accessible, and help future contributors build on previous work.
 
-Run a local preview with `python -m http.server 8000` and open `http://localhost:8000`.
+Documentation is written in Markdown under [`docs/`](docs/) so contributors can update it directly through GitHub without editing website code.
+
+**[How to contribute](CONTRIBUTING.md)** · **[Documentation files](docs/)**
+
+*Project ReCharge · Enactus St. Clair College*
